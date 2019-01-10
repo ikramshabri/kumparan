@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `tbl_news` (
 --
 
 --
--- Indexes for table `tb_person`
+-- Indexes for table `tbl_news`
 --
 ALTER TABLE `tbl_news`
  ADD PRIMARY KEY (`id`);
@@ -48,7 +48,7 @@ ALTER TABLE `tbl_news`
 --
 
 --
--- AUTO_INCREMENT for table `tb_person`
+-- AUTO_INCREMENT for table `tbl_news`
 --
 ALTER TABLE `tbl_news`
 MODIFY `id` int(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
